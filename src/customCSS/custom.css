@@ -1,7 +1,6 @@
 
 body {
 
-    scroll-padding-top: var(--top-spacing);
     font: 18px/1.4 system-ui;
 
     background-color: #FDE68E;
@@ -47,6 +46,12 @@ body {
 .carousel .thumbs {
     padding: 0;
     white-space: normal;
+}
+
+#footer{
+    background-color:rgba(251, 189, 107,1);
+    max-height: 10%;
+    padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
