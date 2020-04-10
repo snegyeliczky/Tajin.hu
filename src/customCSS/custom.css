@@ -1,0 +1,69 @@
+
+body {
+
+    scroll-padding-top: var(--top-spacing);
+    font: 18px/1.4 system-ui;
+
+    background-color: #FDE68E;
+}
+
+
+.component{
+    padding: 10%;
+    border-bottom: 1px solid black;
+
+}
+
+#WelcomeContent {
+    display: inline-flex;
+
+}
+
+#aboutMe {
+    margin: 10px;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 20px;
+    background-color:rgba(251, 189, 107,0.7);
+    border: 1px solid rgba(251, 189, 107,1);
+    border-radius: 40px;
+}
+
+#aboutMe h3 {
+    text-align: left;
+
+}
+
+.welcomeImgContainer img {
+    margin: 10px;
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.carousel.carousel-slider {
+    margin: auto;
+}
+
+.carousel .thumbs {
+    padding: 0;
+    white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+    #WelcomeContent {
+        display: block;
+    }
+
+    #aboutMe {
+        max-width: 100%;
+    }
+
+    .welcomeImgContainer img {
+        max-width: 90%;
+    }
+
+    .carousel.carousel-slider {
+        width: 90%;
+    }
+
+}
