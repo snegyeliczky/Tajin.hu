@@ -19,6 +19,11 @@ const TajinMenu = () => {
                         Termékek
                     </Link>
                 </Menu.Item>
+                <Menu.Item>
+                    <Link to={"price-container"} smooth={true} duration={1000}>
+                        Árak
+                    </Link>
+                </Menu.Item>
             </Menu>
         </header>
 

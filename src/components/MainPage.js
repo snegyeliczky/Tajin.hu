@@ -2,6 +2,7 @@ import React from "react";
 import Welcome from "./Welcome";
 import Products from "./Products";
 import Footer from "./footer";
+import Prices from "./Prices";
 import 'antd/dist/antd.css';
 import "../customCSS/custom.css"
 
@@ -13,6 +14,7 @@ const MainPage = () => {
         <div>
             <Welcome/>
             <Products/>
+            <Prices/>
             <Footer/>
         </div>
 
