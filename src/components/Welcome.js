@@ -1,9 +1,25 @@
-import React from "react";
-import ReactImageAppear from 'react-image-appear';
+import React, {useEffect} from "react";
+
 
 
 const Welcome = () => {
-    const publicFolder = process.env.PUBLIC_URL;
+
+    let getTextFromFile = () => {
+        fetch("news/news.txt")
+            .then((r) => r.text())
+            .then(text => {
+                console.log(text);
+                if (text == "" || text == null){
+                    text = "Köszöntjük a Tajin.hu-n"
+                }
+                document.querySelector("#news").textContent = text;
+            })
+    };
+
+    useEffect(()=>{
+        getTextFromFile()
+    },[]);
+
 
     return (
         <div id="Welcome" className={"component"}>
@@ -13,6 +29,8 @@ const Welcome = () => {
                     mert az étel se nem fő, se nem sül benne, inkább párolódik. És mivel lassan, gőzben készül,
                     megőrzi a vitamintartalma javát, és az aromák sem vesznek el."
                 </p>
+                <h3>- - -  </h3>
+                <p id={"news"}></p>
             </div>
         </div>
     );

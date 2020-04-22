@@ -1,7 +1,7 @@
 import React from "react";
 
-const Prices =()=>{
-    return(
+const Prices = () => {
+    return (
         <div className={"price-container component"}>
             <div className={"price-box"}>
                 <h2>Tajin</h2>

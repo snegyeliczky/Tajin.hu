@@ -7,17 +7,17 @@ body {
 }
 
 
-.component{
+.component {
     padding: 10%;
     border-bottom: 1px solid black;
     width: 90%;
-    height: 100vh;
+    min-height: 100vh;
     display: inline-flex;
     justify-content: center;
 }
 
 
-#Welcome{
+#Welcome {
     width: 100%;
     position: relative;
     background-image: url('unnamed2.jpg');
@@ -27,12 +27,11 @@ body {
 }
 
 
-
-.Welcome-container{
+.Welcome-container {
     position: absolute;
     bottom: 15%;
-    background: rgba(251, 189, 107,0.8);
-    width: 90%;
+    background: rgba(251, 189, 107, 0.8);
+    width: 60%;
     border-radius: 20px;
 }
 
@@ -41,6 +40,7 @@ body {
     padding: 10px;
 
 }
+
 
 .carousel.carousel-slider {
     margin: auto;
@@ -52,8 +52,8 @@ body {
 }
 
 
-.price-box{
-    background-color: rgba(251, 189, 107,0.8);
+.price-box {
+    background-color: rgba(251, 189, 107, 0.8);
     padding: 2vh;
     margin: 5%;
     border-radius: 20px;
@@ -62,12 +62,9 @@ body {
 }
 
 
-
-
-
-#footer{
-    background-color:rgba(251, 189, 107,1);
-    height: 10%;
+#footer {
+    background-color: rgba(251, 189, 107, 1);
+    min-height: 10%;
     padding: 20px;
 }
 
@@ -78,12 +75,12 @@ body {
         width: 100%;
     }
 
-    .price-container{
+    .price-container {
         flex-wrap: wrap;
     }
 
-    .price-box{
-        margin-top:25% ;
+    .price-box {
+        margin-top: 25%;
         width: 100%;
     }
 
