@@ -8,13 +8,13 @@
     },
     {
       "name": "Nagy tajin",
-      "path": "tj3.jpeg",
+      "path": "tj3.jpg",
       "legend": "ez itt a leírás helye és ez egy nagyon nagy tajin",
       "price": 24000
     },
     {
       "name": "Egyedi tajin",
-      "path": "tj2.jpeg",
+      "path": "tj2.jpg",
       "legend": "ez itt a leírás helye és ez egy nagyon egyedi tajin",
       "price": 25000
     }

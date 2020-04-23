@@ -3,21 +3,18 @@ import Welcome from "./Welcome";
 import Products from "./Products";
 import Footer from "./footer";
 import Prices from "./Prices";
+import TajinMenu from "./menu";
 import 'antd/dist/antd.css';
-import "../customCSS/custom.css"
-import {ContextTajin} from "./ContextTajin";
+import "../customCSS/custom.css";
 
 
 const MainPage = () => {
 
-    const {fetchImg,imgList} = useContext(ContextTajin);
 
-    useEffect(()=>{
-         fetchImg();
-    },[]);
 
     return (
         <div>
+            <TajinMenu/>
             <Welcome/>
             <Products/>
             <Prices/>

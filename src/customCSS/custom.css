@@ -52,6 +52,12 @@ body {
 }
 
 
+
+.carousel-container{
+    flex-wrap: wrap;
+}
+
+
 .price-box {
     background-color: rgba(251, 189, 107, 0.8);
     padding: 2vh;

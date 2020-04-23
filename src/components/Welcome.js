@@ -9,7 +9,7 @@ const Welcome = () => {
             .then((r) => r.text())
             .then(text => {
                 console.log(text);
-                if (text == "" || text == null){
+                if (text === "" || text === null){
                     text = "Köszöntjük a Tajin.hu-n"
                 }
                 document.querySelector("#news").textContent = text;

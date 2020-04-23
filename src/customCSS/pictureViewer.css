@@ -1,0 +1,15 @@
+.pictureBlock{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vw;
+    height: 25vh;
+    margin: 10px;
+    justify-content: center; /* del if fill div*/
+
+    overflow: hidden
+}
+.pictureBlock img {
+    max-width: 90%;
+    max-height: 50%;
+
+}
