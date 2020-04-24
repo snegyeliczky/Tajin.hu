@@ -11,14 +11,26 @@ const Pictures = () =>{
         for (let img of imgList) {
             let pictureBlock = document.createElement("div");
             pictureBlock.setAttribute("class","pictureBlock");
-            let imageBlock = document.createElement("img");
+
+            let imageBlock = document.createElement("div");
             let imgPath = publicFolder+img.path;
-            imageBlock.setAttribute("src",imgPath)
+            imageBlock.setAttribute("class", "img")
+            imageBlock.style.backgroundImage = "url("+imgPath+")";
+
+            let imgLegend = document.createElement("div");
+            imgLegend.innerText=img.legend;
+            imageBlock.appendChild(imgLegend)
+
             pictureBlock.appendChild(imageBlock);
 
-            let imgText = document.createElement("p");
-            imgText.innerText=img.name;
-            pictureBlock.appendChild(imgText)
+
+            let imgTitle = document.createElement("h3");
+            imgTitle.innerText=img.name;
+            pictureBlock.appendChild(imgTitle)
+
+            let imgPrice = document.createElement("p");
+            imgPrice.innerText= "Ár: "+img.price+"Ft";
+            pictureBlock.appendChild(imgPrice)
 
             element.appendChild(pictureBlock)
         }
