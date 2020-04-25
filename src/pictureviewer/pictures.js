@@ -15,6 +15,7 @@ const Pictures = () =>{
             let imageBlock = document.createElement("div");
             let imgPath = publicFolder+img.path;
             imageBlock.setAttribute("class", "img")
+            imageBlock.setAttribute("data-name",img.path)
             imageBlock.style.backgroundImage = "url("+imgPath+")";
 
             let imgLegend = document.createElement("div");
@@ -36,8 +37,29 @@ const Pictures = () =>{
         }
     }
 
+    function bluerOthersOnHover(){
+        let listOfImg = document.querySelectorAll(".img");
+        for (let element of listOfImg){
+            element.addEventListener("mouseover", function () {
+                for (let element2 of listOfImg){
+                    if(element2.dataset.name!== this.dataset.name){
+                        element2.style.filter = "grayscale(30%) blur(1.5px)";
+
+                    }
+                }
+            })
+            element.addEventListener("mouseleave", function () {
+                for (let element2 of listOfImg){
+                    element2.style.filter = "grayscale(0%) blur(0px)";
+                }
+            })
+        }
+    }
+
     useEffect(() => {
         loadPic();
+        bluerOthersOnHover()
+
     });
 
 

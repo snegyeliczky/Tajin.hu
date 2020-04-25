@@ -1,3 +1,5 @@
+
+
 .pictureBlock{
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +21,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     transition-property: transform, border-radius;
-    transition-duration: 2.5s;
+    transition: .7s ease-in-out;
 }
+
 
 .pictureBlock .img:hover{
     z-index: 1;
@@ -29,12 +32,15 @@
     transform: scale(2.5);
     border: 1px solid rgba(251, 189, 107, 0.9);
     border-radius: 15px;
-
 }
 
 .pictureBlock .img:hover > div{
     display: table;
     border-bottom: 1px solid rgba(251, 189, 107, 0.9);;
+}
+
+
+.pictureBlock .img:hover {
 }
 
 .img div{
