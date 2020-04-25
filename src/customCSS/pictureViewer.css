@@ -20,13 +20,12 @@
     /*background: center; to center but not cover*/
     background-repeat: no-repeat;
     background-size: cover;
-    transition-property: transform, border-radius;
-    transition: .7s ease-in-out;
+    transition-property: transform ;
+    transition: .4s ease-in-out ;
 }
 
 
 .pictureBlock .img:hover{
-    z-index: 1;
     -ms-transform: scale(2.5); /* IE 9 */
     -webkit-transform: scale(2.5); /* Safari 3-8 */
     transform: scale(2.5);

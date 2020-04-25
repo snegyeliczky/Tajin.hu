@@ -43,14 +43,20 @@ const Pictures = () =>{
             element.addEventListener("mouseover", function () {
                 for (let element2 of listOfImg){
                     if(element2.dataset.name!== this.dataset.name){
-                        element2.style.filter = "grayscale(30%) blur(1.5px)";
+                        element2.parentElement.style.filter = "grayscale(30%) blur(1.5px)";
+                        element2.parentElement.style.zIndex="-1"
 
                     }
                 }
             })
             element.addEventListener("mouseleave", function () {
                 for (let element2 of listOfImg){
-                    element2.style.filter = "grayscale(0%) blur(0px)";
+                    setTimeout(() =>{
+                        element2.parentNode.style.filter = "grayscale(0%) blur(0px)";
+                        element2.parentElement.style.zIndex="1";
+                    },300)
+
+
                 }
             })
         }
