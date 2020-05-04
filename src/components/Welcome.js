@@ -1,8 +1,9 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 
 
 
 const Welcome = () => {
+    const [text,setText] = useState("")
 
     let getTextFromFile = () => {
         fetch("news/news.txt")
@@ -12,7 +13,7 @@ const Welcome = () => {
                 if (text === "" || text === null){
                     text = "Köszöntjük a Tajin.hu-n"
                 }
-                document.querySelector("#news").textContent = text;
+                setText(text);
             })
     };
 
@@ -30,7 +31,7 @@ const Welcome = () => {
                     megőrzi a vitamintartalma javát, és az aromák sem vesznek el."
                 </p>
                 <h3>- - -  </h3>
-                <p id={"news"}></p>
+                <p>{text}</p>
             </div>
         </div>
     );

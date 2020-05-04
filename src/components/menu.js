@@ -24,6 +24,11 @@ const TajinMenu = () => {
                         Árak
                     </Link>
                 </Menu.Item>
+                <Menu.Item>
+                    <Link to={"contactContainer"} smooth={true} duration={1000}>
+                        Kapcsolat
+                    </Link>
+                </Menu.Item>
             </Menu>
         </header>
 

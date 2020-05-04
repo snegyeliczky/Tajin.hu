@@ -8,7 +8,7 @@
     padding: 10px;
     margin: 15px;
     justify-content: center; /* del if fill div*/
-    border: 1px solid rgba(251, 189, 107, 0.9);
+    /*border: 1px solid rgba(251, 189, 107, 0.9); */
 }
 
 .pictureBlock .img {
@@ -33,24 +33,20 @@
     border-radius: 15px;
 }
 
-.pictureBlock .img:hover > div{
-    display: table;
-    border-bottom: 1px solid rgba(251, 189, 107, 0.9);;
-}
-
-
-.pictureBlock .img:hover {
-}
 
 .img div{
     display: none;
     font-size: 35%;
     max-width: 90%;
-    background: rgba(251, 189, 107, 0.5);
+    background: rgba(251, 189, 107, 0.4);
     transition-property:display;
     transition-duration: 2.5s;
 }
 
+.pictureBlock .img:hover > div{
+    display: table;
+    border-bottom: 1px solid rgba(251, 189, 107, 0.9);;
+}
 
 
 .pictureBlock p{
