@@ -6,11 +6,22 @@ body {
     background-color: #FDE68E;
 }
 
+.contentContainer{
+    background: rgba(251, 189, 107, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(253, 241, 197);
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+
 
 .component {
     padding: 10%;
     border-bottom: 3px solid rgba(251, 189, 107);
-    width: 90%;
+    width: 98%;
     min-height: 100vh;
     display: inline-flex;
     justify-content: center;
@@ -55,17 +66,21 @@ body {
 
 .carousel-container{
     flex-wrap: wrap;
-}
-
-.price-container{
-    background-image: url('prices.jpeg');
+    background-image: url('pictureView.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+.price-container{
+    background-image: url('contact.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .price-box {
-    background-color: rgba(251, 189, 107, 0.8);
+    color: rgb(253, 241, 197);
+    background-color: rgba(90, 37, 6, 0.4);
     padding: 2vh;
     margin: 5%;
     border-radius: 20px;
@@ -74,9 +89,9 @@ body {
 }
 
 #contactContainer{
-    background-image: url('contact.jpeg');
+    background-image: url('prices.jpeg');
     background-repeat: no-repeat;
-
+    background-attachment:fixed;
     background-size: cover;
 }
 
@@ -84,12 +99,7 @@ body {
     margin:20px;
 }
 
-.contact-text{
-    background-color: rgba(251, 189, 107, 0.8);
-    border-radius: 20px;
-    padding: 10px;
 
-}
 
 .contact iframe{
     max-width: 100%;
@@ -130,9 +140,5 @@ body {
         width: 100%;
     }
 
-    #contactContainer{
-        flex-wrap: wrap;
-
-    }
 
 }

@@ -3,6 +3,7 @@ import React from "react";
 const Prices = () => {
     return (
         <div className={"price-container component"}>
+            <div className={"contentContainer"}>
             <div className={"price-box"}>
                 <h2>Tajin</h2>
                 <p> 32 cm séles</p>
@@ -17,6 +18,7 @@ const Prices = () => {
                 <p> Lángállo mázzal</p>
                 <h3>25.000 Ft-tól </h3>
             </div>
+        </div>
         </div>
     );
 };
