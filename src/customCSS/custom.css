@@ -20,7 +20,7 @@ body {
 
 .component {
     padding: 10%;
-    border-bottom: 3px solid rgba(251, 189, 107);
+    border-bottom: 3px solid rgb(251, 189, 107);
     width: 98%;
     min-height: 100vh;
     display: inline-flex;
@@ -132,12 +132,20 @@ body {
 
 .price-box {
     color: rgb(253, 241, 197);
-    background-color: rgba(90, 37, 6, 0.4);
-    padding: 2vh;
     margin: 5%;
     border-radius: 20px;
     padding: 10px;
     width: 40%
+}
+
+.price1{
+    background-color: rgba(90, 37, 6, 0.4);
+    border:1px solid rgb(253, 241, 197);
+}
+
+.price2{
+    background-color: rgba(90, 37, 6, 0.6);
+    border:2px solid rgb(253, 241, 197);
 }
 
 /* contacts */
@@ -147,6 +155,7 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
+    border-bottom: 0;
 }
 
 .contact{
@@ -173,6 +182,7 @@ body {
 
 
 #footer {
+    border-top: 3px solid rgb(253, 241, 197);
     background-color: rgba(251, 189, 107, 1);
     min-height: 10%;
     padding: 20px;
