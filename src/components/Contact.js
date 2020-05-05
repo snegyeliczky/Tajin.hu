@@ -16,7 +16,7 @@ const Contact =()=>{
                 <h3>E-mail</h3>
                 <a href="mailto:jordanagi@fazekasbolt.hu">jordanagi@fazekasbolt.hu</a>
                 <h3>Címünk</h3>
-                <p>Páty Árpád utca 85.</p>
+                <address>Páty Árpád utca 85.</address>
             </div>
 
             <div className={"contact"} >

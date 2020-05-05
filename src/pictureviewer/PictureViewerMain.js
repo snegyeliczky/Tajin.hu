@@ -3,6 +3,7 @@ import ViewerMenu from "./viewerMenu";
 import 'antd/dist/antd.css';
 import "../customCSS/pictureViewer.css"
 import Pictures from "./pictures";
+import Footer from "../components/footer";
 import {ContextTajin} from "../components/ContextTajin";
 
 const PictureViewerMain = () =>{
@@ -17,6 +18,7 @@ const PictureViewerMain = () =>{
         <div>
             <ViewerMenu/>
             <Pictures/>
+            <Footer/>
         </div>
     )
 };

@@ -11,6 +11,8 @@ const Products = () => {
     return (
         <div className={"carousel-container component"}>
 
+
+
             <Carousel infiniteLoop={true} autoPlay={true} width={"70%"}>
                 <div>
                     <img src={publicFolder + "/images/tj1.jpeg"}/>
@@ -25,9 +27,12 @@ const Products = () => {
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
-            <div id={"picturesLink"}>
+            <div id={"picturesLink"} >
+
                 <a href={"/pictures"}>Még több kép</a>
+                <span id={"rounded"}></span>
             </div>
+
         </div>
     );
 };

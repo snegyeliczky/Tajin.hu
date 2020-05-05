@@ -1,12 +1,11 @@
 
 body {
-
     font: 18px/1.4 system-ui;
-
+    font-family: none;
     background-color: #FDE68E;
 }
 
-.contentContainer{
+.contentContainer {
     background: rgba(251, 189, 107, 0.8);
     border-radius: 20px;
     display: flex;
@@ -15,6 +14,7 @@ body {
     width: 100%;
     max-width: 100%;
     justify-content: center;
+    padding: 20px;
 }
 
 
@@ -27,6 +27,7 @@ body {
     justify-content: center;
 }
 
+/* Welcome */
 
 #Welcome {
     width: 100%;
@@ -39,6 +40,7 @@ body {
 
 
 .Welcome-container {
+    padding: 10px;
     position: absolute;
     bottom: 15%;
     background: rgba(251, 189, 107, 0.8);
@@ -52,17 +54,25 @@ body {
 
 }
 
+/* products */
+
 
 .carousel.carousel-slider {
     margin: auto;
 }
 
 .carousel .thumbs {
-    padding: 0;
-    white-space: normal;
+    border: 3px solid rgb(253, 241, 197);
+    background: rgba(251, 189, 107, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    white-space: pre;
 }
 
-
+.carousel-slider{
+    border: 4px solid rgb(253, 241, 197);
+    border-radius: 20px;
+}
 
 .carousel-container{
     flex-wrap: wrap;
@@ -71,6 +81,48 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#picturesLink{
+    display: flex;
+    align-items:center;
+    background-color: rgba(253, 241, 197,0.4);;
+    border-radius: 20px;
+    position: relative;
+    height: fit-content;
+}
+
+#picturesLink a{
+    font-weight: bold;
+    color: #632303;
+    padding: 8px;
+    z-index: 1;
+
+}
+
+#rounded{
+    position: absolute;
+    background: rgba(253, 241, 197,0.8);
+    border: 1px solid #AC470C;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition-duration: 1000ms;
+    transition-property: width, border-radius;
+    padding-top: 12px;
+}
+
+#picturesLink:hover   #rounded{
+    width: 100%;
+    border-radius: 20px;
+
+
+}
+
+
+
+
+
+/* prices */
 
 .price-container{
     background-image: url('contact.jpeg');
@@ -87,6 +139,8 @@ body {
     padding: 10px;
     width: 40%
 }
+
+/* contacts */
 
 #contactContainer{
     background-image: url('prices.jpeg');
@@ -123,6 +177,7 @@ body {
     min-height: 10%;
     padding: 20px;
 }
+
 
 @media screen and (max-width: 768px) {
 

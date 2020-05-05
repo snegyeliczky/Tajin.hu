@@ -22,7 +22,7 @@ const Pictures = () =>{
                 for (let element2 of listOfImg){
                     setTimeout(() =>{
                         element2.parentNode.style.filter = "grayscale(0%) blur(0px)";
-                        element2.parentElement.style.zIndex="1";
+                        element2.parentElement.style.zIndex="0";
                     },300)
                 }
             })
