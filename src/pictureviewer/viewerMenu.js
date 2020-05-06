@@ -11,7 +11,7 @@ const ViewerMenu = () => {
             <Menu mode="horizontal" id={"menu"}>
                 <Menu.Item>
                     <a href={"/"} smooth={true} duration={500}>
-                        Back
+                        Vissza a főoldalra
                     </a>
                 </Menu.Item>
             </Menu>

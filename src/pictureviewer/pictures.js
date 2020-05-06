@@ -17,7 +17,7 @@ const Pictures = () =>{
 
                     }
                 }
-            })
+            });
             element.addEventListener("mouseleave", function () {
                 for (let element2 of listOfImg){
                     setTimeout(() =>{
@@ -43,6 +43,6 @@ const Pictures = () =>{
         </div>
     );
 
-}
+};
 
 export default Pictures;

@@ -5,18 +5,20 @@ import "../customCSS/pictureViewer.css"
 import Pictures from "./pictures";
 import Footer from "../components/footer";
 import {ContextTajin} from "../components/ContextTajin";
+import SearchField from "./Search";
 
 const PictureViewerMain = () =>{
 
     const {fetchImg} = useContext(ContextTajin);
 
-    useEffect(()=>{
-        fetchImg();
+    useEffect( ()=>{
+         fetchImg();
     },[]);
 
     return(
         <div>
             <ViewerMenu/>
+            <SearchField/>
             <Pictures/>
             <Footer/>
         </div>

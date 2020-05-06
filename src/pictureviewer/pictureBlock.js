@@ -18,7 +18,7 @@ const PictureBlock = ({picture}) => {
             </div>
             <div className={"textBlock"}>
                 <h3>{name}</h3>
-                <h4>Ár: {price}</h4>
+                <h4>Ár: {price} Ft.-</h4>
                 <p>Rendelési szám: {orderNum}</p>
             </div>
         </div>
