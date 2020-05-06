@@ -2,6 +2,7 @@ import React, {useContext, useEffect} from "react";
 import {ContextTajin} from "../components/ContextTajin";
 import PictureBlock from "./pictureBlock";
 
+
 const Pictures = () =>{
 
     const {imgList} = useContext(ContextTajin);
@@ -40,6 +41,12 @@ const Pictures = () =>{
             {imgList.map(img =>(
                 <PictureBlock picture={img}/>
             ))}
+
+            {imgList.length==0
+                ? <div> Nem tálálható termék! </div>
+                : ""
+            }
+
         </div>
     );
 

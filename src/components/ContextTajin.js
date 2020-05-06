@@ -7,11 +7,13 @@ export const ContextTajin = createContext();
 export const TajinProvider = props => {
 
     const [imgList, setImgList] = useState([]);
+    const [allProdNum, setAllProdNum] = useState(0);
 
 
     const fetchImg = async () => {
         let axiosResponse = await axios("images/imagelist.json");
         let imgList1 = axiosResponse.data.imgList;
+        setAllProdNum(imgList1.length);
         setImgList(imgList1);
     };
 
@@ -26,7 +28,8 @@ export const TajinProvider = props => {
             imgList,
             fetchImg,
             setImgList,
-            fetchAllImg
+            fetchAllImg,
+            allProdNum
         }}>
             {props.children}
         </ContextTajin.Provider>
