@@ -82,6 +82,10 @@ body {
     background-size: cover;
 }
 
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    z-index: 1;
+}
+
 #picturesLink{
     display: flex;
     align-items:center;

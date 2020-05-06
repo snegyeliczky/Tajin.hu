@@ -1,23 +1,26 @@
 import React from "react";
 
 
-const PictureBlock =({picture})=>{
-    const{path,legend,name,price}= picture;
-    const publicFolder = process.env.PUBLIC_URL+"/images/";
-    let imgPath = publicFolder+path;
+const PictureBlock = ({picture}) => {
+    const {path, legend, name, price, orderNum} = picture;
+    const publicFolder = process.env.PUBLIC_URL + "/images/fotos/";
+    let imgPath = publicFolder + path;
 
 
     let imgStyle = {
-        backgroundImage:`url(${imgPath})`
+        backgroundImage: `url(${imgPath})`
     };
 
-    return(
+    return (
         <div className={"pictureBlock"}>
             <div className={"img"} style={imgStyle} data-name={path}>
                 <div>{legend}</div>
             </div>
-            <h3>{name}</h3>
-            <h4>Ár: {price}</h4>
+            <div className={"textBlock"}>
+                <h3>{name}</h3>
+                <h4>Ár: {price}</h4>
+                <p>Rendelési szám: {orderNum}</p>
+            </div>
         </div>
     );
 };
