@@ -10,10 +10,9 @@ const Welcome = () => {
             .then((r) => r.text())
             .then(text => {
                 console.log(text);
-                if (text === "" || text === null){
-                    text = "Köszöntjük a Tajin.hu-n"
+                if (text.length>2){
+                    setText(text);
                 }
-                setText(text);
             })
     };
 
@@ -30,8 +29,11 @@ const Welcome = () => {
                     mert az étel se nem fő, se nem sül benne, inkább párolódik. És mivel lassan, gőzben készül,
                     megőrzi a vitamintartalma javát, és az aromák sem vesznek el."
                 </p>
-                <h3>- - -  </h3>
-                <p>{text}</p>
+                { text.length>3
+                    ?<div className={"infoText"}><h3>- ! -  </h3>{text}</div>
+                    :""
+                }
+
             </div>
         </div>
     );

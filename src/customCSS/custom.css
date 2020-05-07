@@ -48,6 +48,15 @@ body {
     border-radius: 20px;
 }
 
+.infoText{
+    background-color: rgba(159, 49, 60,0.6);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 5px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
 
 .Welcome-container h2 {
     padding: 10px;

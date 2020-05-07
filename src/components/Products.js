@@ -29,7 +29,7 @@ const Products = () => {
             </Carousel>
             <div id={"picturesLink"} >
 
-                <a href={"/pictures"}>Még több kép</a>
+                <a href={"/pictures"}>Termékek</a>
                 <span id={"rounded"}></span>
             </div>
 

@@ -2,6 +2,7 @@ import React from "react";
 import {Menu} from 'antd';
 import "../customCSS/menu.css";
 import {Link} from "react-scroll"
+import SubMenu from "antd/es/menu/SubMenu";
 
 
 const TajinMenu = () => {
@@ -14,13 +15,17 @@ const TajinMenu = () => {
                         A Tajin.hu
                     </Link>
                 </Menu.Item>
+                <SubMenu  title={<Link className={"subTitle"} to={"carousel-container"} smooth={true} duration={500}>
+                    Termékek
+                </Link>}>
+                    <Menu.Item className={"subMenu"}>
+                        <a href={"/pictures"}>
+                            Termékek kínálat
+                        </a>
+                    </Menu.Item>
+                </SubMenu>
                 <Menu.Item>
-                    <Link to={"carousel-container"} smooth={true} duration={1000}>
-                        Termékek
-                    </Link>
-                </Menu.Item>
-                <Menu.Item>
-                    <Link to={"price-container"} smooth={true} duration={1000}>
+                    <Link  to={"price-container"} smooth={true} duration={1000}>
                         Árak
                     </Link>
                 </Menu.Item>

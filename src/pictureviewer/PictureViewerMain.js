@@ -6,6 +6,7 @@ import Pictures from "./pictures";
 import Footer from "../components/footer";
 import {ContextTajin} from "../components/ContextTajin";
 import SearchField from "./Search";
+import Contact from "../components/Contact";
 
 const PictureViewerMain = () =>{
 
@@ -20,6 +21,7 @@ const PictureViewerMain = () =>{
             <ViewerMenu/>
             <SearchField/>
             <Pictures/>
+            <Contact/>
             <Footer/>
         </div>
     )
