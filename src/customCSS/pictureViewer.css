@@ -19,7 +19,7 @@
     height: 60%;
     /*background: center; to center but not cover*/
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     transition-property: transform ;
     transition: .4s ease-in-out ;
 }
@@ -29,7 +29,7 @@
     -ms-transform: scale(2.5); /* IE 9 */
     -webkit-transform: scale(2.5); /* Safari 3-8 */
     transform: scale(2.5);
-    border: 1px solid rgba(251, 189, 107, 0.9);
+    border: 0px solid rgba(251, 189, 107, 0.9);
     border-radius: 15px;
 }
 

@@ -11,7 +11,7 @@ const Welcome = () => {
             .then(text => {
                 console.log(text);
                 if (text === "" || text === null){
-                    text = "Köszöntjük a Tajin.hu-n"
+                    text = "Köszöntjük a tajine.hu-n"
                 }
                 setText(text);
             })
@@ -25,7 +25,7 @@ const Welcome = () => {
     return (
         <div id="Welcome" className={"component"}>
             <div id={"aboutMe"} className={"Welcome-container"}>
-                <h2>Mi is az a Tajin?</h2>
+                <h2>Mi is az a tajine?</h2>
                 <p> "(ejtsd: tazsin) az észak-afrikai, pontosabban a marokkói konyha sajátos edénye. Sajátos,
                     mert az étel se nem fő, se nem sül benne, inkább párolódik. És mivel lassan, gőzben készül,
                     megőrzi a vitamintartalma javát, és az aromák sem vesznek el."

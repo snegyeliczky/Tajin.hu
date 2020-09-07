@@ -8,7 +8,8 @@ const PictureBlock =({picture})=>{
 
 
     let imgStyle = {
-        backgroundImage:`url(${imgPath})`
+        backgroundImage:`url(${imgPath})`,
+        backgroundPosition: 'center'
     };
 
     return(
