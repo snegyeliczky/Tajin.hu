@@ -1,0 +1,222 @@
+
+body {
+    font: 18px/1.4 system-ui;
+    font-family: none;
+    background-color: #FDE68E;
+}
+
+.contentContainer {
+    background: rgba(251, 189, 107, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(253, 241, 197);
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.component {
+    padding: 10%;
+    border-bottom: 3px solid rgb(251, 189, 107);
+    width: 98%;
+    min-height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+}
+
+/* Welcome */
+
+#Welcome {
+    width: 100%;
+    position: relative;
+    background-image: url('welvomeBackG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.Welcome-container {
+    padding: 10px;
+    position: absolute;
+    bottom: 15%;
+    background: rgba(251, 189, 107, 0.8);
+    width: 60%;
+    border-radius: 20px;
+}
+
+.infoText{
+    background-color: rgba(159, 49, 60,0.6);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 5px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+
+.Welcome-container h2 {
+    padding: 10px;
+
+}
+
+/* products */
+
+
+.carousel.carousel-slider {
+    margin: auto;
+}
+
+.carousel .thumbs {
+    border: 3px solid rgb(253, 241, 197);
+    background: rgba(251, 189, 107, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    white-space: pre;
+}
+
+.carousel-slider{
+    border: 4px solid rgb(253, 241, 197);
+    border-radius: 20px;
+}
+
+.carousel-container{
+    flex-wrap: wrap;
+    background-image: url('pictureView.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    z-index: 1;
+}
+
+#picturesLink{
+    display: flex;
+    align-items:center;
+    background-color: rgba(253, 241, 197,0.4);;
+    border-radius: 20px;
+    position: relative;
+    height: fit-content;
+}
+
+#picturesLink a{
+    font-weight: bold;
+    color: #632303;
+    padding: 8px;
+    z-index: 1;
+
+}
+
+#rounded{
+    position: absolute;
+    background: rgba(253, 241, 197,0.8);
+    border: 1px solid #AC470C;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition-duration: 1000ms;
+    transition-property: width, border-radius;
+    padding-top: 12px;
+}
+
+#picturesLink:hover   #rounded{
+    width: 100%;
+    border-radius: 20px;
+
+
+}
+
+
+
+
+
+/* prices */
+
+.price-container{
+    background-image: url('contact.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.price-box {
+    color: rgb(253, 241, 197);
+    margin: 5%;
+    border-radius: 20px;
+    padding: 10px;
+    width: 40%
+}
+
+.price1{
+    background-color: rgba(90, 37, 6, 0.4);
+    border:1px solid rgb(253, 241, 197);
+}
+
+.price2{
+    background-color: rgba(90, 37, 6, 0.6);
+    border:2px solid rgb(253, 241, 197);
+}
+
+/* contacts */
+
+#contactContainer{
+    background-image: url('prices.jpeg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    border-bottom: 0;
+}
+
+.contact{
+    margin:20px;
+}
+
+
+
+.contact iframe{
+    max-width: 100%;
+    max-height: 100%;
+}
+.contact h3{
+    margin: 5px;
+}
+
+
+
+.contact p{
+    margin: 0px;
+    padding: 4px;
+}
+
+
+
+#footer {
+    border-top: 3px solid rgb(253, 241, 197);
+    background-color: rgba(251, 189, 107, 1);
+    min-height: 10%;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .carousel.carousel-slider {
+        width: 100%;
+    }
+
+    .price-container {
+        flex-wrap: wrap;
+    }
+
+    .price-box {
+        margin-top: 25%;
+        width: 100%;
+    }
+
+
+}
