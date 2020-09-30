@@ -24,10 +24,9 @@ const Welcome = () => {
     return (
         <div id="Welcome" className={"component"}>
             <div id={"aboutMe"} className={"Welcome-container"}>
-                <h2>Mi is az a Tajin?</h2>
-                <p> "(ejtsd: tazsin) az észak-afrikai, pontosabban a marokkói konyha sajátos edénye. Sajátos,
-                    mert az étel se nem fő, se nem sül benne, inkább párolódik. És mivel lassan, gőzben készül,
-                    megőrzi a vitamintartalma javát, és az aromák sem vesznek el."
+                <p> Jordán Ági vagyok, fazekas és négy gyermekes családanya.
+15 éve készítek sütő- és főzőedényeket, melyek között a tajine számomra a legkedvesebb. Talán, mert "gyökértelen fazekasnak" tartom magam, így nyitott voltam a hagyományos fazekasságtól eltérő formavilág felé.
+Emellett a tajine edény nagy felületű kúpos teteje kíváló lehetőség az egyedi díszítésre.
                 </p>
                 { text.length>3
                     ?<div className={"infoText"}><h3>- ! -  </h3>{text}</div>

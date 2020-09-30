@@ -15,6 +15,8 @@ const Contact =()=>{
                 <a href="tel:+36 23 344 417">+36 23 344 417</a>
                 <h3>E-mail</h3>
                 <a href="mailto:jordanagi@fazekasbolt.hu">jordanagi@fazekasbolt.hu</a>
+                <h3>Facebook</h3>
+                <a href="https://www.facebook.com/agi.jordan.3" target="blank">Jordán Ági</a>
                 <h3>Címünk</h3>
                 <address>Páty Árpád utca 85.</address>
             </div>
