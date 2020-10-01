@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# Deploy product on Google Cloud
+
+1. $ npm run build
+2. Copy app.yaml and build directory into tajine.deploy dir
+3. $ cd tajine.deploy
+4. $ gcloud app deploy 
