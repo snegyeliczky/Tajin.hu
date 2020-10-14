@@ -4,7 +4,7 @@
       "name": "Cseresznyevirágos Tajine",
       "path": "DSCF0071.jpeg",
       "legend": "Cseresznyevirágos tajine",
-      "price": 25000,
+      "price": "25000",
       "orderNum": "S079",
       "faszenP": false
     },
@@ -12,7 +12,7 @@
       "name": "Tajine",
       "path": "DSCF1822.jpeg",
       "legend": "Marokkói jellegű főzőedény tajine",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S100",
       "faszenP": false
     },
@@ -20,7 +20,7 @@
       "name": "Zöld, mintás Tajine",
       "path": "DSCF2100.jpeg",
       "legend": "Zöldmintás tajine",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S108",
       "faszenP": false
     },
@@ -28,7 +28,7 @@
       "name": "Lovas Tajine",
       "path": "DSCF2119.jpeg",
       "legend": "Egyedi mintás lovas tajine",
-      "price": 25000,
+      "price": "25000",
       "orderNum": "S111",
       "faszenP": false
     },
@@ -36,7 +36,7 @@
       "name": "Tajine faszéntartóval",
       "path": "DSCF5645.jpeg",
       "legend": "Tajine faszéntartóval",
-      "price": 36000,
+      "price": "36000",
       "orderNum": "S033",
       "faszenP": true
     },
@@ -44,7 +44,7 @@
       "name": "Felül szelelő tajine",
       "path": "DSCF6066.jpeg",
       "legend": "Felül szelelő tajine",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S036",
       "faszénP": false
     },
@@ -52,7 +52,7 @@
       "name": "Marokkói főző Tajine",
       "path": "DSCF6102.jpeg",
       "legend": "Marokkói főzőedény (Tagine/Tajine)",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S041",
       "faszénP": false
     },
@@ -60,7 +60,7 @@
       "name": "Tajine faszéntartóval",
       "path": "DSCF6204.jpeg",
       "legend": "Tajine faszéntartóval",
-      "price": 36000,
+      "price": "36000",
       "orderNum": "S044",
       "faszénP": true
     },
@@ -68,7 +68,7 @@
       "name": "Tajine faszéntartóval",
       "path": "DSCF7576.jpeg",
       "legend": "Tajine faszéntartóval",
-      "price": 36000,
+      "price": "36000",
       "orderNum": "S058",
       "faszénP": true
     },
@@ -76,7 +76,7 @@
       "name": "Bézs Tajine",
       "path": "DSCF8345.jpeg",
       "legend": "Marokkói jellegű főzőedény bézs (Tagine/Tajine)",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S066",
       "faszénP": false
     },
@@ -84,7 +84,7 @@
       "name": "Marokkói sütő Tajine",
       "path": "DSCF8352.jpeg",
       "legend": "Marokkói jellegû sütőedény (tajine)",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S074",
       "faszénP": false
     },
@@ -92,7 +92,7 @@
       "name": "Marokkói levélmintás Tajine",
       "path": "DSCF8407.jpeg",
       "legend": "Marokkói jellegű főzőedény zöld (Tagine/Tajine)",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S067",
       "faszénP": false
     },
@@ -100,7 +100,7 @@
       "name": "Felül szelelő tajine",
       "path": "DSCF9429.jpeg",
       "legend": "Felül szelelő tajine",
-      "price": 21000,
+      "price": "21000",
       "orderNum": "S112",
       "faszénP": false
     }
