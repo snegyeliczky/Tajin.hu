@@ -73,3 +73,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 2. Copy app.yaml and build directory into tajine.deploy dir
 3. $ cd tajine.deploy
 4. $ gcloud app deploy 
+
+# For setting the DNS read:
+https://medium.com/@calebmackdaven/so-you-want-to-start-using-google-cloud-part-2-fe59423a3319
