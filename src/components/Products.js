@@ -47,6 +47,16 @@ const Products = () => {
                 <div id={"crau"}>
                     <img src={publicFolder + "/images/carousel_11.jpg"}/>
                 </div>
+                <div id={"crau"}>
+                    <img src={publicFolder + "/images/carousel_12.jpg"}/>
+                    <p className="legend">Krumplis csülök</p>
+                </div>
+                <div id={"crau"}>
+                    <img src={publicFolder + "/images/carousel_13.jpg"}/>
+                </div>
+                <div id={"crau"}>
+                    <img src={publicFolder + "/images/carousel_14.jpg"}/>
+                </div>
             </Carousel>
             <div id={"picturesLink"} >
 
