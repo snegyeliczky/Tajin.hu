@@ -48,6 +48,17 @@ body {
     border-radius: 20px;
 }
 
+.Welcome-image-container {
+    position: absolute;
+    right: 0px;
+    top: 10%;
+}
+
+.Welcome-image {
+    width: 75%;
+    height: auto;
+}
+
 .infoText{
     background-color: rgba(159, 49, 60,0.6);
     border-bottom-right-radius: 20px;
@@ -164,7 +175,7 @@ body {
 /* contacts */
 
 #contactContainer{
-    background-image: url('contact.jpg');
+    background-image: url('contact_background.jpg');
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
