@@ -5,7 +5,7 @@ const Prices = () => {
         <div className={"about-tajine-container component"}>
             <div className={"contentContainer"}>
             <div className={"about-tajine-box price1"}>
-                <h2>Tajin</h2>
+                <h2>Tajine</h2>
                 <p> A tajine különleges formájú mázas cserép párolóedény. Eredete Észak-Afrika, főként Marokkóban használják. A benne elkészített ételnek is tajine a neve. Formai jellegzetességei: lapos tálszerű alj, amelyre egy magas kúpos tető illeszkedik. Ebben az aránylag magas tetőben feldúsult gőz párolja omlósra a benne készült ételt. Marokkóban az utcán faszénparázstartón izzó faszénen készítik ma is a "street food"-ot a tajin-et.</p>
             </div>
             <div className={"about-tajine-box price2"}>
