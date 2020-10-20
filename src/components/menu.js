@@ -15,15 +15,11 @@ const TajinMenu = () => {
                         Bemutatkozás
                     </Link>
                 </Menu.Item>
-                <SubMenu  title={<Link className={"subTitle"} to={"carousel-container"} smooth={true} duration={500}>
-                    Termékek
-                </Link>}>
-                    <Menu.Item className={"subMenu"}>
-                        <a href={"/pictures"}>
-                            Termékek kínálat
-                        </a>
-                    </Menu.Item>
-                </SubMenu>
+                <Menu.Item>
+                    <a href="/pictures" rel="noopener noreferrer">
+                        Termékek
+                    </a>
+                </Menu.Item>
                 <Menu.Item>
                     <Link  to={"about-tajine-container"} smooth={true} duration={1000}>
                         Tajine-ról
