@@ -74,5 +74,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 3. $ cd tajine.deploy
 4. $ gcloud app deploy 
 
+# Deploy a version to staging environment
+1. $ npm run build
+2. Copy app.yaml and build directory into tajine.deploy dir
+3. $ cd tajine.deploy
+4. gcloud app deploy --version <span style="color:red">*VERSION_ID*</span> --no-promote
+
+After that you can access the staging revision on:
+https://*VERSION_ID*-dot-default-dot-PROJECT_ID.REGION_ID.r.appspot.com
+
+
 # For setting the DNS read:
 https://medium.com/@calebmackdaven/so-you-want-to-start-using-google-cloud-part-2-fe59423a3319
