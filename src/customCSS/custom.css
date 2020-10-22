@@ -52,12 +52,11 @@ body {
 
 .Welcome-image-container {
     position: absolute;
-    right: 0px;
-    top: 10%;
+    right: 10%;
 }
 
 .Welcome-image {
-    width: 75%;
+    width: 312px;
     height: auto;
 }
 
@@ -152,6 +151,7 @@ body {
 /* about-tajine */
 
 .about-tajine-container{
+    align-items: center;
     background-image: url('about_tajine.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,6 +235,25 @@ body {
         margin-top: 25%;
         width: 100%;
     }
+}
 
+@media screen and (max-width: 640px) {
 
+    .Welcome-image-container {
+        display: none;
+    }
+}
+
+@media screen and (max-height:505px) {
+    .Welcome-image-container {
+        right: 3%;
+    }
+    .Welcome-image {
+        width: 208px;
+        height:auto;
+    }
+
+    .Welcome-container {
+        left: 3%;
+    }
 }
