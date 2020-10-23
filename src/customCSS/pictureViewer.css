@@ -28,7 +28,7 @@
 
 .textBlock{
     padding: 10px;
-    height: 40%;
+    height: auto;
 }
 
 
@@ -61,7 +61,6 @@
 .pictureBlock p{
     display: flex;
     justify-content: center;
-
 }
 
 #pictureContainer{
@@ -72,3 +71,15 @@
     padding-top: 15%;
 }
 
+@media screen and (max-width: 1024px) {
+    .pictureBlock {
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+        height: 60vh;
+        padding: 10px;
+        margin: 15px;
+        justify-content: center; /* del if fill div*/
+        /* border: 1px solid rgba(251, 189, 107, 0.9);*/
+    }
+}

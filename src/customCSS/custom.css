@@ -241,6 +241,7 @@ body {
 
     .Welcome-image-container {
         display: none;
+        visibility: hidden;
     }
 }
 
