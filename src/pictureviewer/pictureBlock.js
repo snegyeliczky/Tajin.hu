@@ -1,28 +1,26 @@
 import React from "react";
-
+import { Card } from "react-bootstrap";
 
 const PictureBlock = ({picture}) => {
     const {path, legend, name, price, orderNum} = picture;
     const publicFolder = process.env.PUBLIC_URL + "/images/fotos/";
-    let imgPath = publicFolder + path;
-
-
-    let imgStyle = {
-        backgroundImage: `url(${imgPath})`
-    };
+    const imgPath = publicFolder + path;
+    const orientationClass = 'own-card-img ' + ( picture.orientation === 'landscape' ? 'card-img-landscape' : 'card-img-portrait' );
 
     return (
-        <div className={"pictureBlock"}>
-            <div className={"img"} style={imgStyle} data-name={path}>
-                <div>{legend}</div>
-            </div>
-            <div className={"textBlock"}>
-                <h3>{name}</h3>
-                <h4>Ár: {price} Ft.-</h4>
-                <p>Rendelési szám: {orderNum}</p>
-            </div>
-        </div>
-    );
+        <Card className="own-card">
+            <Card.Header className="own-card-header">{name}</Card.Header>
+            <Card.Body className="own-card-body d-flex justify-content-center">
+                <Card.Img src={imgPath} className={orientationClass}></Card.Img>
+            </Card.Body>
+            <Card.Footer className="own-card-footer">
+                <ul style={{listStyleType: "none"}}>
+                    <li>Ár: {price} Ft.</li>
+                    <li>Rendelési szám: {orderNum}</li>
+                </ul>
+            </Card.Footer>
+        </Card>
+    )
 };
 
 export default PictureBlock;

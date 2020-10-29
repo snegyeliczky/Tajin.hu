@@ -6,6 +6,7 @@
       "legend": "Cseresznyevirágos tajine",
       "price": "25000",
       "orderNum": "S079",
+      "orientation": "portrait",
       "faszenP": false
     },
     {
@@ -14,6 +15,7 @@
       "legend": "Marokkói jellegű főzőedény tajine",
       "price": "21000",
       "orderNum": "S100",
+      "orientation": "portrait",
       "faszenP": false
     },
     {
@@ -22,6 +24,7 @@
       "legend": "Zöldmintás tajine",
       "price": "21000",
       "orderNum": "S108",
+      "orientation": "landscape",
       "faszenP": false
     },
     {
@@ -30,6 +33,7 @@
       "legend": "Egyedi mintás lovas tajine",
       "price": "25000",
       "orderNum": "S111",
+      "orientation": "landscape",
       "faszenP": false
     },
     {
@@ -38,6 +42,7 @@
       "legend": "Tajine faszéntartóval",
       "price": "36000",
       "orderNum": "S033",
+      "orientation": "portrait",
       "faszenP": true
     },
     {
@@ -46,6 +51,7 @@
       "legend": "Felül szelelő tajine",
       "price": "21000",
       "orderNum": "S036",
+      "orientation": "landscape",
       "faszénP": false
     },
     {
@@ -54,6 +60,7 @@
       "legend": "Marokkói főzőedény (Tagine/Tajine)",
       "price": "21000",
       "orderNum": "S041",
+      "orientation": "landscape",
       "faszénP": false
     },
     {
@@ -62,6 +69,7 @@
       "legend": "Tajine faszéntartóval",
       "price": "36000",
       "orderNum": "S044",
+      "orientation": "portrait",
       "faszénP": true
     },
     {
@@ -70,6 +78,7 @@
       "legend": "Tajine faszéntartóval",
       "price": "36000",
       "orderNum": "S058",
+      "orientation": "portrait",
       "faszénP": true
     },
     {
@@ -78,6 +87,7 @@
       "legend": "Marokkói jellegű főzőedény bézs (Tagine/Tajine)",
       "price": "21000",
       "orderNum": "S066",
+      "orientation": "portrait",
       "faszénP": false
     },
     {
@@ -86,6 +96,7 @@
       "legend": "Marokkói jellegû sütőedény (tajine)",
       "price": "21000",
       "orderNum": "S074",
+      "orientation": "portrait",
       "faszénP": false
     },
     {
@@ -94,6 +105,7 @@
       "legend": "Marokkói jellegű főzőedény zöld (Tagine/Tajine)",
       "price": "21000",
       "orderNum": "S067",
+      "orientation": "portrait",
       "faszénP": false
     },
     {
@@ -102,6 +114,7 @@
       "legend": "Felül szelelő tajine",
       "price": "21000",
       "orderNum": "S112",
+      "orientation": "landscape",
       "faszénP": false
     }
   ]

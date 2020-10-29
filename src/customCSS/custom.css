@@ -3,6 +3,7 @@ body {
     font: 18px/1.4 system-ui;
     font-family: none;
     background-color: #FDE68E;
+    color: #ba3e06;
 }
 
 .contentContainer {
@@ -72,7 +73,6 @@ body {
 
 .Welcome-container h2 {
     padding: 10px;
-
 }
 
 /* products */
