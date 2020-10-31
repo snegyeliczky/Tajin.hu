@@ -11,14 +11,16 @@ export const TajinProvider = props => {
 
 
     const fetchImg = async () => {
-        let axiosResponse = await axios("images/imagelist.json");
+        // let axiosResponse = await axios("images/imagelist.json");
+        let axiosResponse = await axios("https://europe-west3-beat-cors-server.cloudfunctions.net/beat-cors");
         let imgList1 = axiosResponse.data.imgList;
         setAllProdNum(imgList1.length);
         setImgList(imgList1);
     };
 
     const fetchAllImg =  async () =>{
-        let axiosResponse = await axios("images/imagelist.json");
+        // let axiosResponse = await axios("images/imagelist.json");
+        let axiosResponse = await axios("https://europe-west3-beat-cors-server.cloudfunctions.net/beat-cors");
         let FetchedImgList = axiosResponse.data.imgList;
         return FetchedImgList;
     };
