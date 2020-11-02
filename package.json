@@ -17,7 +17,8 @@
     "react-responsive-carousel": "^3.1.57",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "react-scroll": "^1.7.16"
+    "react-scroll": "^1.7.16",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "PORT=3001 react-scripts start",

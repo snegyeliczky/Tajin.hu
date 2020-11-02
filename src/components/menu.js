@@ -21,6 +21,11 @@ const TajinMenu = () => {
                     </a>
                 </Menu.Item>
                 <Menu.Item>
+                    <a href="/recipes" rel="noopener noreferrer">
+                        Receptek
+                    </a>
+                </Menu.Item>
+                <Menu.Item>
                     <Link  to={"about-tajine-container"} smooth={true} duration={1000}>
                         Tajine-ról
                     </Link>

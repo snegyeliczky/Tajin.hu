@@ -6,6 +6,10 @@ body {
     color: #ba3e06;
 }
 
+header {
+    padding-bottom: 2em;
+}
+
 .contentContainer {
     background: rgba(251, 189, 107, 0.8);
     border-radius: 20px;
