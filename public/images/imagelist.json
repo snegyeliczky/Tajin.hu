@@ -1,11 +1,57 @@
 {
   "imgList": [
     {
+      "name": "Türkizzöld tajine",
+      "path": "1.tajine.jpg",
+      "legend": "Türkizzöld tajine",
+      "price": "21.000",
+      "orderNum": "S200",
+      "orientation": "landscape",
+      "faszenP": false
+    },
+    {
+      "name": "Kék indamintás tajine",
+      "path": "5.tajine.jpg",
+      "legend": "Kék indamintás tajine",
+      "price": "25.000",
+      "orderNum": "S204",
+      "orientation": "portrait",
+      "faszenP": false
+    },
+    {
+      "name": "Zöld íves tajine faszéntartóval",
+      "path": "9.tajine.jpg",
+      "legend": "Zöld íves tajine faszéntartóval",
+      "price": "36.000",
+      "orderNum": "S208",
+      "orientation": "portrait",
+      "faszenP": true
+    },
+    {
+      "name": "Bézs marokkói tajine faszéntartóval",
+      "path": "13.tajine.jpg",
+      "legend": "Bézs marokkói tajine faszéntartóval",
+      "price": "36.000",
+      "orderNum": "S212",
+      "orientation": "portrait",
+      "faszenP": true
+    },
+    {
+      "name": "Natúr hullámos tajine faszéntartóva",
+      "path": "17.tajine.jpg",
+      "legend": "Natúr hullámos tajine faszéntartóva",
+      "price": "36.000",
+      "orderNum": "S216",
+      "orientation": "portrait",
+      "faszenP": true
+    },
+    {
       "name": "Cseresznyevirágos Tajine",
       "path": "DSCF0071.jpeg",
       "legend": "Cseresznyevirágos tajine",
       "price": "25000",
       "orderNum": "S079",
+      "orientation": "portrait",
       "faszenP": false
     },
     {
@@ -14,6 +60,7 @@
       "legend": "Marokkói jellegű főzőedény tajine",
       "price": "21000",
       "orderNum": "S100",
+      "orientation": "portrait",
       "faszenP": false
     },
     {
@@ -22,6 +69,52 @@
       "legend": "Zöldmintás tajine",
       "price": "21000",
       "orderNum": "S108",
+      "orientation": "landscape",
+      "faszenP": false
+    },
+    {
+      "name": "Lovas natúr tajine",
+      "path": "2.tajine.jpg",
+      "legend": "Lovas natúr tajine",
+      "price": "25.000",
+      "orderNum": "S201",
+      "orientation": "landscape",
+      "faszenP": false
+    },
+    {
+      "name": "Mélyzöld tajine",
+      "path": "6.tajine.jpg",
+      "legend": "Mélyzöld tajine",
+      "price": "21.000",
+      "orderNum": "S205",
+      "orientation": "landscape",
+      "faszenP": false
+    },
+    {
+      "name": "Bézs-barna tajine",
+      "path": "10.tajine.jpg",
+      "legend": "Bézs-barna tajine",
+      "price": "21.000",
+      "orderNum": "S209",
+      "orientation": "landscape",
+      "faszenP": false
+    },
+    {
+      "name": "Világoszöld tajine",
+      "path": "14.tajine.jpg",
+      "legend": "Világoszöld tajine",
+      "price": "21.000",
+      "orderNum": "S213",
+      "orientation": "portrait",
+      "faszenP": false
+    },
+    {
+      "name": "Világos bézs mintás tajine",
+      "path": "18.tajine.jpg",
+      "legend": "Világos bézs mintás tajine",
+      "price": "21.000",
+      "orderNum": "S217",
+      "orientation": "landscape",
       "faszenP": false
     },
     {
@@ -30,6 +123,7 @@
       "legend": "Egyedi mintás lovas tajine",
       "price": "25000",
       "orderNum": "S111",
+      "orientation": "landscape",
       "faszenP": false
     },
     {
@@ -38,14 +132,61 @@
       "legend": "Tajine faszéntartóval",
       "price": "36000",
       "orderNum": "S033",
+      "orientation": "portrait",
       "faszenP": true
     },
     {
       "name": "Felül szelelő tajine",
       "path": "DSCF6066.jpeg",
       "legend": "Felül szelelő tajine",
-      "price": "21000",
+      "price": "21.000",
       "orderNum": "S036",
+      "orientation": "landscape",
+      "faszénP": false
+    },
+    {
+      "name": "Bézs marokkói mintás tajine",
+      "path": "3.tajine.jpg",
+      "legend": "Bézs marokkói mintás tajine",
+      "price": "21.000",
+      "orderNum": "S202",
+      "orientation": "landscape",
+      "faszénP": false
+    },
+    {
+      "name": "Vörös indamintás tajine",
+      "path": "7.tajine.jpg",
+      "legend": "Vörös indamintás tajine",
+      "price": "25.000",
+      "orderNum": "S206",
+      "orientation": "landscape",
+      "faszénP": false
+    },
+    {
+      "name": "Fémes-zöld tajine",
+      "path": "11.tajine.jpg",
+      "legend": "Fémes-zöld tajine",
+      "price": "21.000",
+      "orderNum": "S210",
+      "orientation": "portrait",
+      "faszénP": false
+    },
+    {
+      "name": "Natúr búbos tajine",
+      "path": "15.tajine.jpg",
+      "legend": "Natúr búbos tajine",
+      "price": "21.000",
+      "orderNum": "S214",
+      "orientation": "landscape",
+      "faszénP": false
+    },
+    {
+      "name": "Tajine edények",
+      "path": "19.tajine.jpg",
+      "legend": "Tajine edények",
+      "price": "21.000 Ft/db",
+      "orderNum": "S218",
+      "orientation": "landscape",
       "faszénP": false
     },
     {
@@ -54,6 +195,7 @@
       "legend": "Marokkói főzőedény (Tagine/Tajine)",
       "price": "21000",
       "orderNum": "S041",
+      "orientation": "landscape",
       "faszénP": false
     },
     {
@@ -62,6 +204,7 @@
       "legend": "Tajine faszéntartóval",
       "price": "36000",
       "orderNum": "S044",
+      "orientation": "portrait",
       "faszénP": true
     },
     {
@@ -70,6 +213,52 @@
       "legend": "Tajine faszéntartóval",
       "price": "36000",
       "orderNum": "S058",
+      "orientation": "portrait",
+      "faszénP": true
+    },
+    {
+      "name": "Barna indamintás tajine",
+      "path": "4.tajine.jpg",
+      "legend": "Barna indamintás tajine",
+      "price": "25.000",
+      "orderNum": "S203",
+      "orientation": "portrait",
+      "faszénP": false
+    },
+    {
+      "name": "Színes tajine",
+      "path": "8.tajine.jpg",
+      "legend": "Színes tajine",
+      "price": "21.000",
+      "orderNum": "S207",
+      "orientation": "portrait",
+      "faszénP": false
+    },
+    {
+      "name": "Natúr hullámos tajine",
+      "path": "12.tajine.jpg",
+      "legend": "Natúr hullámos tajine",
+      "price": "21.000",
+      "orderNum": "S211",
+      "orientation": "portrait",
+      "faszénP": false
+    },
+    {
+      "name": "Vörös-mintás tajine faszéntartóval",
+      "path": "16.tajine.jpg",
+      "legend": "Vörös-mintás tajine faszéntartóval",
+      "price": "36.000",
+      "orderNum": "S215",
+      "orientation": "portrait",
+      "faszénP": true
+    },
+    {
+      "name": "Türkizzöld tajine faszéntartóval",
+      "path": "20.tajine.jpg",
+      "legend": "Türkizzöld tajine faszéntartóval",
+      "price": "36.000",
+      "orderNum": "S219",
+      "orientation": "portrait",
       "faszénP": true
     },
     {
@@ -78,6 +267,7 @@
       "legend": "Marokkói jellegű főzőedény bézs (Tagine/Tajine)",
       "price": "21000",
       "orderNum": "S066",
+      "orientation": "portrait",
       "faszénP": false
     },
     {
@@ -86,6 +276,7 @@
       "legend": "Marokkói jellegû sütőedény (tajine)",
       "price": "21000",
       "orderNum": "S074",
+      "orientation": "portrait",
       "faszénP": false
     },
     {
@@ -94,6 +285,7 @@
       "legend": "Marokkói jellegű főzőedény zöld (Tagine/Tajine)",
       "price": "21000",
       "orderNum": "S067",
+      "orientation": "portrait",
       "faszénP": false
     },
     {
@@ -102,6 +294,7 @@
       "legend": "Felül szelelő tajine",
       "price": "21000",
       "orderNum": "S112",
+      "orientation": "landscape",
       "faszénP": false
     }
   ]
