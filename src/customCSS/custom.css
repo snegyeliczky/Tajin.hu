@@ -108,6 +108,12 @@ body {
     z-index: 1;
 }
 
+.carousel .slide .legend {
+    background:  rgba(251, 189, 107, 1);
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 1.2em;
+}
+
 #picturesLink{
     display: flex;
     align-items:center;
