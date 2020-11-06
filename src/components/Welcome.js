@@ -23,7 +23,7 @@ const Welcome = () => {
     return (
         <div id="Welcome" className={"component"}>
             <div id={"welcomeImage"} className={"Welcome-image-container"}>
-                <img src={publicFolder + "/images/welcome_image.jpg"} alt="weclome image" className={"Welcome-image"}/>
+                <img src={publicFolder + "/images/welcome_image.jpg"} alt="weclome" className={"Welcome-image"}/>
             </div>
             <div id={"aboutMe"} className={"Welcome-container"}>
                 <p> Jordán Ági vagyok, fazekas és négy gyermekes családanya.

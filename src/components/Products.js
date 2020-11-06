@@ -35,7 +35,7 @@ const Products = () => {
                     <p className="legend">Tajine csendélet</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_7.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_7.webp"}/>
                     <p className="legend">Csülök tajine-ban</p>
                 </div>
                 <div id={"crau"}>

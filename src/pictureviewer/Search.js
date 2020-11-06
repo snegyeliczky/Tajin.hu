@@ -15,7 +15,7 @@ const SearchField = () => {
     async function searching(value) {
 
         let allImg = await fetchAllImg();
-        if (value.length == 0) {
+        if (value.length === 0) {
             setImgList(allImg);
             return;
         }

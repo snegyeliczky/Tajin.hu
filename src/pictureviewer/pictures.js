@@ -42,7 +42,7 @@ const Pictures = () =>{
                     <PictureBlock picture={img}/>
                 ))}
 
-                {imgList.length==0
+                {imgList.length === 0
                     ? <div> Nem tálálható termék! </div>
                     : ""
                 }
