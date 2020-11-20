@@ -2,7 +2,7 @@
   "imgList": [
     {
       "name": "Türkizzöld tajine",
-      "path": "1.tajine.jpg",
+      "path": "1.tajine.jpeg",
       "legend": "Türkizzöld tajine",
       "price": "21.000",
       "orderNum": "S200",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Kék indamintás tajine",
-      "path": "5.tajine.jpg",
+      "path": "5.tajine.jpeg",
       "legend": "Kék indamintás tajine",
       "price": "25.000",
       "orderNum": "S204",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Zöld íves tajine faszéntartóval",
-      "path": "9.tajine.jpg",
+      "path": "9.tajine.jpeg",
       "legend": "Zöld íves tajine faszéntartóval",
       "price": "36.000",
       "orderNum": "S208",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Bézs marokkói tajine faszéntartóval",
-      "path": "13.tajine.jpg",
+      "path": "13.tajine.jpeg",
       "legend": "Bézs marokkói tajine faszéntartóval",
       "price": "36.000",
       "orderNum": "S212",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Natúr hullámos tajine faszéntartóva",
-      "path": "17.tajine.jpg",
+      "path": "17.tajine.jpeg",
       "legend": "Natúr hullámos tajine faszéntartóva",
       "price": "36.000",
       "orderNum": "S216",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Lovas natúr tajine",
-      "path": "2.tajine.jpg",
+      "path": "2.tajine.jpeg",
       "legend": "Lovas natúr tajine",
       "price": "25.000",
       "orderNum": "S201",
@@ -83,7 +83,7 @@
     },
     {
       "name": "Mélyzöld tajine",
-      "path": "6.tajine.jpg",
+      "path": "6.tajine.jpeg",
       "legend": "Mélyzöld tajine",
       "price": "21.000",
       "orderNum": "S205",
@@ -92,7 +92,7 @@
     },
     {
       "name": "Bézs-barna tajine",
-      "path": "10.tajine.jpg",
+      "path": "10.tajine.jpeg",
       "legend": "Bézs-barna tajine",
       "price": "21.000",
       "orderNum": "S209",
@@ -101,7 +101,7 @@
     },
     {
       "name": "Világoszöld tajine",
-      "path": "14.tajine.jpg",
+      "path": "14.tajine.jpeg",
       "legend": "Világoszöld tajine",
       "price": "21.000",
       "orderNum": "S213",
@@ -110,7 +110,7 @@
     },
     {
       "name": "Világos bézs mintás tajine",
-      "path": "18.tajine.jpg",
+      "path": "18.tajine.jpeg",
       "legend": "Világos bézs mintás tajine",
       "price": "21.000",
       "orderNum": "S217",
@@ -146,7 +146,7 @@
     },
     {
       "name": "Bézs marokkói mintás tajine",
-      "path": "3.tajine.jpg",
+      "path": "3.tajine.jpeg",
       "legend": "Bézs marokkói mintás tajine",
       "price": "21.000",
       "orderNum": "S202",
@@ -155,7 +155,7 @@
     },
     {
       "name": "Vörös indamintás tajine",
-      "path": "7.tajine.jpg",
+      "path": "7.tajine.jpeg",
       "legend": "Vörös indamintás tajine",
       "price": "25.000",
       "orderNum": "S206",
@@ -164,7 +164,7 @@
     },
     {
       "name": "Fémes-zöld tajine",
-      "path": "11.tajine.jpg",
+      "path": "11.tajine.jpeg",
       "legend": "Fémes-zöld tajine",
       "price": "21.000",
       "orderNum": "S210",
@@ -173,7 +173,7 @@
     },
     {
       "name": "Natúr búbos tajine",
-      "path": "15.tajine.jpg",
+      "path": "15.tajine.jpeg",
       "legend": "Natúr búbos tajine",
       "price": "21.000",
       "orderNum": "S214",
@@ -182,7 +182,7 @@
     },
     {
       "name": "Tajine edények",
-      "path": "19.tajine.jpg",
+      "path": "19.tajine.jpeg",
       "legend": "Tajine edények",
       "price": "21.000 Ft/db",
       "orderNum": "S218",
@@ -218,7 +218,7 @@
     },
     {
       "name": "Barna indamintás tajine",
-      "path": "4.tajine.jpg",
+      "path": "4.tajine.jpeg",
       "legend": "Barna indamintás tajine",
       "price": "25.000",
       "orderNum": "S203",
@@ -227,7 +227,7 @@
     },
     {
       "name": "Színes tajine",
-      "path": "8.tajine.jpg",
+      "path": "8.tajine.jpeg",
       "legend": "Színes tajine",
       "price": "21.000",
       "orderNum": "S207",
@@ -236,7 +236,7 @@
     },
     {
       "name": "Natúr hullámos tajine",
-      "path": "12.tajine.jpg",
+      "path": "12.tajine.jpeg",
       "legend": "Natúr hullámos tajine",
       "price": "21.000",
       "orderNum": "S211",
@@ -245,7 +245,7 @@
     },
     {
       "name": "Vörös-mintás tajine faszéntartóval",
-      "path": "16.tajine.jpg",
+      "path": "16.tajine.jpeg",
       "legend": "Vörös-mintás tajine faszéntartóval",
       "price": "36.000",
       "orderNum": "S215",
@@ -254,7 +254,7 @@
     },
     {
       "name": "Türkizzöld tajine faszéntartóval",
-      "path": "20.tajine.jpg",
+      "path": "20.tajine.jpeg",
       "legend": "Türkizzöld tajine faszéntartóval",
       "price": "36.000",
       "orderNum": "S219",
