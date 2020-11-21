@@ -13,6 +13,9 @@
 
 # [START gae_quickstart_yaml]
 runtime: nodejs12
+env_variables:
+  REACT_APP_IS_PRODUCTION: "true"
+  REACT_APP_ENV: "staging"
 handlers:
 # Serve all static files with url ending with a file extension
 - url: /(.*\..+)$
