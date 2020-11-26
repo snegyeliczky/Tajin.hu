@@ -15,47 +15,47 @@ const Products = () => {
 
             <Carousel infiniteLoop={true} autoPlay={true} width={"70%"}>
                 <div>
-                    <img src={publicFolder + "/images/carousel_1.jpg"} alt="image1"/>
+                    <img src={publicFolder + "/images/carousel_1.jpeg"} alt="image1"/>
                     <p className="legend">Gyuvecs tajine-ban</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_3.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_3.jpeg"}/>
                     <p className="legend">Pontyszeletek tajine-ban</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_4.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_4.jpeg"}/>
                     <p className="legend">Gyömbéres curry-s csirkemell</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_5.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_5.jpeg"}/>
                     <p className="legend">Brokkolis csirkecomb</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_6.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_6.jpeg"}/>
                     <p className="legend">Tajine csendélet</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_7.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_7.jpeg"}/>
                     <p className="legend">Csülök tajine-ban</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_8.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_8.jpeg"}/>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_10.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_10.jpeg"}/>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_11.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_11.jpeg"}/>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_12.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_12.jpeg"}/>
                     <p className="legend">Krumplis csülök</p>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_13.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_13.jpeg"}/>
                 </div>
                 <div id={"crau"}>
-                    <img src={publicFolder + "/images/carousel_14.jpg"}/>
+                    <img src={publicFolder + "/images/carousel_14.jpeg"}/>
                 </div>
             </Carousel>
             <div id={"picturesLink"} >
