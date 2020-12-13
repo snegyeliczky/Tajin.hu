@@ -4,7 +4,7 @@ if [ $1 = prod ]
 then
 	export REACT_APP_ENV=production
 else
-	export REACT_APP_ENV=staging
+	export REACT_APP_ENV=staging_$1
 fi
 rm -rf tajine.deploy
 echo $REACT_APP_ENV
@@ -19,7 +19,7 @@ if [ $1 = prod ]
 then
 	gcloud app deploy
 else
-	gcloud app deploy --version staging --no-promote
+	gcloud app deploy --version $REACT_APP_ENV --no-promote
 fi
 cd ..
 
