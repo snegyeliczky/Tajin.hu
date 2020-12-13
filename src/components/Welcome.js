@@ -27,7 +27,7 @@ const Welcome = () => {
             </div>
             <div id={"aboutMe"} className={"Welcome-container"}>
                 <p> Jordán Ági vagyok, fazekas és négy gyermekes családanya.
-2005 óta készítek sütő- és főzőedényeket, melyek között a tajine számomra a legkedvesebb. Talán, mert "gyökértelen fazekasnak" tartom magam, így nyitott voltam a hagyományos fazekasságtól eltérő formavilág felé.
+2005 óta készítek sütő- és főzőedényeket, melyek között a tajine számomra a legkedvesebb. Talán, mert nyitott vagyok a hagyományos fazekasságtól eltérő formavilág felé.
 Emellett a tajine edény nagy felületű kúpos teteje kíváló lehetőség az egyedi díszítésre.
                 </p>
                 { news.length>3

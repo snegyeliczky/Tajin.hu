@@ -35,7 +35,7 @@ body {
 #Welcome {
     width: 100%;
     position: relative;
-    background-image: url('welcome_background.jpg');
+    background-image: url('welcome_background.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -98,7 +98,7 @@ body {
 .carousel-container{
     vertical-align: top;
     flex-wrap: wrap;
-    background-image: url('pictureView.jpg');
+    background-image: url('pictureView.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -158,7 +158,7 @@ body {
 
 .about-tajine-container{
     align-items: center;
-    background-image: url('about_tajine.jpg');
+    background-image: url('about_tajine.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -184,7 +184,7 @@ body {
 /* contacts */
 
 #contactContainer{
-    background-image: url('contact_background.jpg');
+    background-image: url('contact_background.jpeg');
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
