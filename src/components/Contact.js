@@ -22,7 +22,7 @@ const Contact =()=>{
             </div>
 
             <div className={"contact"} >
-                <iframe width="325" height="325" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"
+                <iframe width="325" height="325" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" title="contactFrame"
                         src="https://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=P%C3%A1ty+%C3%A1rp%C3%A1d+u+85&amp;sll=47.513524,18.824703&amp;sspn=0.158378,0.30899&amp;ie=UTF8&amp;ll=47.529488,18.826017&amp;spn=0.009897,0.019312&amp;t=k&amp;z=14&amp;output=embed&amp;s=AARTsJrt_-CxjV6bvBNq1CjoqeYoN8f70Q"></iframe>
             </div>
 

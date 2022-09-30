@@ -2,8 +2,6 @@ import React from "react";
 import {Menu} from 'antd';
 import "../customCSS/menu.css";
 import {Link} from "react-scroll"
-import SubMenu from "antd/es/menu/SubMenu";
-
 
 const TajinMenu = () => {
 
