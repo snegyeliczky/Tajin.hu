@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from "react";
+import React from "react";
 import Welcome from "./Welcome";
 import Products from "./Products";
 import Footer from "./footer";

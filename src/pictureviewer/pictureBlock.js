@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 const PictureBlock = ({picture}) => {
-    const {path, legend, name, price, orderNum} = picture;
+    const {path, name, price, orderNum} = picture;
     const publicFolder = process.env.PUBLIC_URL + "/images/fotos/";
     const imgPath = publicFolder + path;
     const orientationClass = 'own-card-img ' + ( picture.orientation === 'landscape' ? 'card-img-landscape' : 'card-img-portrait' );
