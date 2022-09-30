@@ -15,7 +15,7 @@ const PictureBlock = ({picture}) => {
             </Card.Body>
             <Card.Footer className="own-card-footer">
                 <ul style={{listStyleType: "none"}}>
-                    <li>Ár: {price} Ft.</li>
+                    <li>Ár: {price}</li>
                     <li>Rendelési szám: {orderNum}</li>
                 </ul>
             </Card.Footer>
