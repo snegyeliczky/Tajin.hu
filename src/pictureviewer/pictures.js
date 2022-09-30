@@ -1,13 +1,14 @@
 import React, {useContext, useEffect} from "react";
-import {ContextTajin} from "../components/ContextTajin";
+import {ContextTajin as ContextTajine} from "../components/ContextTajin";
 import PictureBlock from "./pictureBlock";
+import { CardColumns, Container } from "react-bootstrap";
 
 
 const Pictures = () =>{
 
-    const {imgList} = useContext(ContextTajin);
+    const {imgList} = useContext(ContextTajine);
 
-    function bluerOthersOnHover(){
+    function blurOthersOnHover(){
         let listOfImg = document.querySelectorAll(".img");
         for (let element of listOfImg){
             element.addEventListener("mouseover", function () {
@@ -23,7 +24,7 @@ const Pictures = () =>{
                 for (let element2 of listOfImg){
                     setTimeout(() =>{
                         element2.parentNode.style.filter = "grayscale(0%) blur(0px)";
-                        element2.parentElement.style.zIndex="0";
+                        element2.parentElement.style.zIndex="1";
                     },300)
                 }
             })
@@ -31,25 +32,23 @@ const Pictures = () =>{
     }
 
     useEffect(() => {
-        bluerOthersOnHover();
+        blurOthersOnHover();
     });
 
+    return (
+        <Container fluid>
+            <CardColumns>
+                {imgList.map(img =>(
+                    <PictureBlock picture={img}/>
+                ))}
 
-
-    return(
-        <div id={"pictureContainer"} className={"component"}>
-            {imgList.map(img =>(
-                <PictureBlock picture={img}/>
-            ))}
-
-            {imgList.length==0
-                ? <div> Nem tálálható termék! </div>
-                : ""
-            }
-
-        </div>
+                {imgList.length === 0
+                    ? <div> Nem tálálható termék! </div>
+                    : ""
+                }
+            </CardColumns>
+        </Container>
     );
-
 };
 
 export default Pictures;

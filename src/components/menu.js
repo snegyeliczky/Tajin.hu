@@ -12,21 +12,17 @@ const TajinMenu = () => {
             <Menu mode="horizontal" id={"menu"}>
                 <Menu.Item>
                     <Link to={"Welcome"} smooth={true} duration={500}>
-                        A Tajin.hu
+                        Bemutatkozás
                     </Link>
                 </Menu.Item>
-                <SubMenu  title={<Link className={"subTitle"} to={"carousel-container"} smooth={true} duration={500}>
-                    Termékek
-                </Link>}>
-                    <Menu.Item className={"subMenu"}>
-                        <a href={"/pictures"}>
-                            Termékek kínálat
-                        </a>
-                    </Menu.Item>
-                </SubMenu>
                 <Menu.Item>
-                    <Link  to={"price-container"} smooth={true} duration={1000}>
-                        Árak
+                    <a href="/pictures" rel="noopener noreferrer">
+                        Termékek
+                    </a>
+                </Menu.Item>
+                <Menu.Item>
+                    <Link  to={"about-tajine-container"} smooth={true} duration={1000}>
+                        Tajine-ról
                     </Link>
                 </Menu.Item>
                 <Menu.Item>

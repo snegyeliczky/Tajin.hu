@@ -3,34 +3,35 @@ import React, {useEffect, useState} from "react";
 
 
 const Welcome = () => {
-    const [text,setText] = useState("")
+    const [news,setText] = useState("");
+    const publicFolder = process.env.PUBLIC_URL;
 
-    let getTextFromFile = () => {
-        fetch("news/news.txt")
-            .then((r) => r.text())
-            .then(text => {
-                console.log(text);
-                if (text.length>2){
-                    setText(text);
-                }
-            })
-    };
+
+    const getNewsFromFile = async () => {
+        const r = await fetch("news/news.txt");
+        const text = await r.text();
+        if( text.length > 2 ) {
+            setText( text );
+        }
+    }
 
     useEffect(()=>{
-        getTextFromFile()
+        getNewsFromFile()
     },[]);
 
 
     return (
         <div id="Welcome" className={"component"}>
+            <div id={"welcomeImage"} className={"Welcome-image-container"}>
+                <img src={publicFolder + "/images/welcome_image.jpeg"} alt="weclome" className={"Welcome-image"}/>
+            </div>
             <div id={"aboutMe"} className={"Welcome-container"}>
-                <h2>Mi is az a Tajin?</h2>
-                <p> "(ejtsd: tazsin) az észak-afrikai, pontosabban a marokkói konyha sajátos edénye. Sajátos,
-                    mert az étel se nem fő, se nem sül benne, inkább párolódik. És mivel lassan, gőzben készül,
-                    megőrzi a vitamintartalma javát, és az aromák sem vesznek el."
+                <p> Jordán Ági vagyok, fazekas és négy gyermekes családanya.
+2005 óta készítek sütő- és főzőedényeket, melyek között a tajine számomra a legkedvesebb. Talán, mert nyitott vagyok a hagyományos fazekasságtól eltérő formavilág felé.
+Emellett a tajine edény nagy felületű kúpos teteje kíváló lehetőség az egyedi díszítésre.
                 </p>
-                { text.length>3
-                    ?<div className={"infoText"}><h3>- ! -  </h3>{text}</div>
+                { news.length>3
+                    ?<div className={"infoText"}><h3>- ! -  </h3>{news}</div>
                     :""
                 }
 

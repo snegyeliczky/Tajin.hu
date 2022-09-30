@@ -3,6 +3,7 @@ body {
     font: 18px/1.4 system-ui;
     font-family: none;
     background-color: #FDE68E;
+    color: #ba3e06;
 }
 
 .contentContainer {
@@ -12,6 +13,7 @@ body {
     flex-wrap: wrap;
     border: 3px solid rgb(253, 241, 197);
     width: 100%;
+    height: 80%;
     max-width: 100%;
     justify-content: center;
     padding: 20px;
@@ -25,6 +27,7 @@ body {
     min-height: 100vh;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* Welcome */
@@ -32,7 +35,7 @@ body {
 #Welcome {
     width: 100%;
     position: relative;
-    background-image: url('welvomeBackG.jpg');
+    background-image: url('welcome_background.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -48,6 +51,16 @@ body {
     border-radius: 20px;
 }
 
+.Welcome-image-container {
+    position: absolute;
+    right: 10%;
+}
+
+.Welcome-image {
+    width: 312px;
+    height: auto;
+}
+
 .infoText{
     background-color: rgba(159, 49, 60,0.6);
     border-bottom-right-radius: 20px;
@@ -60,7 +73,6 @@ body {
 
 .Welcome-container h2 {
     padding: 10px;
-
 }
 
 /* products */
@@ -84,6 +96,7 @@ body {
 }
 
 .carousel-container{
+    vertical-align: top;
     flex-wrap: wrap;
     background-image: url('pictureView.jpeg');
     background-repeat: no-repeat;
@@ -93,6 +106,12 @@ body {
 
 .carousel .control-arrow, .carousel.carousel-slider .control-arrow{
     z-index: 1;
+}
+
+.carousel .slide .legend {
+    background:  rgba(251, 189, 107, 1);
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 1.2em;
 }
 
 #picturesLink{
@@ -135,15 +154,16 @@ body {
 
 
 
-/* prices */
+/* about-tajine */
 
-.price-container{
-    background-image: url('contact.jpeg');
+.about-tajine-container{
+    align-items: center;
+    background-image: url('about_tajine.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.price-box {
+.about-tajine-box {
     color: rgb(253, 241, 197);
     margin: 5%;
     border-radius: 20px;
@@ -164,7 +184,7 @@ body {
 /* contacts */
 
 #contactContainer{
-    background-image: url('prices.jpeg');
+    background-image: url('contact_background.jpeg');
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
@@ -202,21 +222,45 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
+    .carousel .thumbs-wrapper {
+        display:none;
+        height: 0px;
+    }
 
     .carousel.carousel-slider {
         width: 100%;
     }
 
-    .price-container {
+    .about-tajine-container {
         flex-wrap: wrap;
     }
 
-    .price-box {
+    .about-tajine-box {
         margin-top: 25%;
         width: 100%;
     }
+}
 
+@media screen and (max-width: 640px) {
 
+    .Welcome-image-container {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-height:505px) {
+    .Welcome-image-container {
+        right: 3%;
+    }
+    .Welcome-image {
+        width: 208px;
+        height:auto;
+    }
+
+    .Welcome-container {
+        left: 3%;
+    }
 }
